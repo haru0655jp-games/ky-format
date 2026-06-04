@@ -1,0 +1,12 @@
+{
+  "kydata_version": "0.1.0",
+  "app": {
+    "name": "My AI Chat",
+    "version": "1.0.0",
+    "entry": "main.js"
+  },
+  "packages": [
+    { "name": "aria", "file": "aria.kypack", "version": "1.0.0" }
+  ],
+  "plugins": []
+}
