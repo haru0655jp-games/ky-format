@@ -1,0 +1,16 @@
+{
+  "plugin_id": "voice_synth",
+  "name": "Voice Synthesizer",
+  "version": "1.0.0",
+  "type": "tts",
+  "author": "yourname",
+  "hooks": {
+    "on_load": "initialize",
+    "on_message": "handleMessage"
+  },
+  "config": {
+    "engine": { "type": "string", "default": "voicevox", "description": "TTS engine name" },
+    "speed":  { "type": "number", "default": 1.0,        "description": "Speech speed (0.5 - 2.0)" },
+    "pitch":  { "type": "number", "default": 0.0,        "description": "Pitch adjustment" }
+  }
+}
